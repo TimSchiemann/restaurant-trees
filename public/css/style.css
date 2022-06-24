@@ -1,0 +1,57 @@
+* {
+    display: border-box;
+}
+
+html {
+    font-size: 1;
+}
+
+ul, ol {
+    list-style-type: none;
+}
+
+h2 {
+    text-align: center;
+}
+
+section {
+    height: 100vh;
+}
+
+#first {
+    background-image: url('../restaurant.jpg');
+    background-size: 100%;
+}
+
+header {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav{
+    width: 40%;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav li {
+    text-align: center;
+}
+
+#about {
+    height: auto;
+}
+
+#about p{
+    font-size: 200%;
+    text-align: center;
+}
+
+#menue {
+    
+}
