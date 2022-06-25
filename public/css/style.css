@@ -2,56 +2,147 @@
     display: border-box;
 }
 
+p, h1, h2, h3, h4 {
+    font-family: 'Roboto';
+}
+
 html {
     font-size: 1;
+    scroll-padding-top: 100px;
+}
+
+a{
+    color: inherit;
+    list-style: inherit;
 }
 
 ul, ol {
     list-style-type: none;
+    padding: 0;
 }
 
 h2 {
     text-align: center;
+    padding-top: 1rem;
+    font-size: 2rem;
 }
 
 section {
     height: 100vh;
+    margin-bottom: 5%;
 }
 
 #first {
     background-image: url('../restaurant.jpg');
-    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 header {
     color: white;
+    background: #283131;
+    position: fixed;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-.nav{
+header p{
+    font-weight: 100;
+}
+
+footer {
+    height: 8%;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background: #283131;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer li {
+    margin: 1em;
+
+}
+
+footer button,
+footer > a,
+footer ul {
+    margin: 1.5em;
+}
+
+footer button {
+    margin-left: 5em;
+}
+
+
+
+button {
+    height: 2rem;
+}
+
+nav{
     width: 40%;
 }
 
-.nav ul {
+nav ul {
     display: flex;
     justify-content: space-around;
 }
 
-.nav li {
+nav li {
     text-align: center;
 }
 
 #about {
+    /* border: 1px solid black; */
     height: auto;
+    padding: 0 5%;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+img {
+    max-width: 100%;
 }
 
 #about p{
-    font-size: 200%;
-    text-align: center;
+    text-align: left;
+    font-size: 1.5em;
 }
 
-#menue {
-    
+#menu {
+    /* border: 1px solid black; */
+    height: 90vh;
+}
+
+#menu p {
+    text-align: center;
+}
+#menu h4{
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#menu li {
+    text-align: center;
+    margin: 1em;
+}
+
+#menu ol li {
+    display: inline;
 }

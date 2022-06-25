@@ -6,88 +6,101 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Restaurant</title>
     <link rel="stylesheet" href="public/css/style.css">
+    <link rel="stylesheet" href="public/css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/e1f50c993e.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <section id="first">
-        <header>
-            <div>
-                <h1>Brasserie</h1>
-                <p>taeglich ab 18:30, die Kueche bis 22:00, das Restaurant bis 23:00</p>
+    <main>
+        <section id="first">
+            <header>
+                <div>
+                    <h1>Brasserie</h1>
+                    <p>taeglich ab 18:30, die Kueche bis 22:00, das Restaurant bis 23:00</p>
+                </div>
+                <nav>
+                    <ul>
+                        <li><p>Seit April 2021 <span>counter</span><i class="fa-solid fa-tree"></i></p></li>
+                        <li><p><a href="#about">Restaurant</a></p></li>
+                        <li><p><a href="#menu">Menue</a></p></li>
+                    </ul>
+                </nav>
+            </header>
+        </section>
+        <section id="about">
+            <h2>Unser Restaurant</h2>
+            <div class="container">
+                <div>
+                    <img src="./public/trees.jpg" alt="trees">
+                </div>
+                <div class="aboutText">
+                    <p>
+                        Die Brasserie setzt auf nachhaltig produzierte Lebensmittel aus regionaler Produktion. Wir richten uns nach der saisonalen
+                        Ernte und achten somit bewusst auf kurze Transportwege zur Reduzierung unserer CO2-Emissionen. Wir verwenden
+                        ausschliesslich Tiere aus ökologischer artgerechter Haltung. Kraut und Rüben stammen ebenfalls nur aus biologischen
+                        Anbau. Wir wertschätzen die verarbeiteten Produkte und vermeiden die Produktion von Müll. Dennoch sind wir in Sachen
+                        Nachhaltigkeit noch nicht perfekt. Daher bemühen wir uns, ständig besser zu werden bei der Müllvermeidung und der
+                        Verwendung von Ressourcen schonender natürlicher Materialien.
+                    </p>
+                    <p>
+                        Zur Minimierung unseres CO2 Footprints pflanzen wir für jeden Gast, der unser Menue wählt, einen Baum zusammen mit
+                        der Forstverwaltung in unserer Region. Jeder Gast sponsert die Baumpflanzaktion mit einem Betrag von 2 €, der bereits im
+                        Menue-Preis enthalten ist. Wir verdoppeln diesen Betrag. So werden 2 Bäume gepflanzt. Jeder von ihnen nimmt in seinem
+                        Leben 1.500 kg CO2 auf. 
+                    </p>
+                </div>
             </div>
-            <div class="nav">
-                <ul>
-                    <li><div><p>Seit April 2021</p><span>COUNTER</span><i class="fa-solid fa-tree"></i></div></li>
-                    <li><p>Menue</p><i class="fa-solid fa-utensils"></i></li>
-                    <li>LOCATION</li>
-                    <li>Restaurant<i class="fa-solid fa-seedling"></i></li>
-                </ul>
-            </div>
-        </header>
-    </section>
-    <section id="about">
-        <h2>Unser Restaurant</h2>
-        <p>
-            Die Brasserie setzt auf nachhaltig produzierte Lebensmittel aus regionaler Produktion. Wir richten uns nach der saisonalen
-            Ernte und achten somit bewusst auf kurze Transportwege zur Reduzierung unserer CO2-Emissionen. Wir verwenden
-            ausschliesslich Tiere aus ökologischer artgerechter Haltung. Kraut und Rüben stammen ebenfalls nur aus biologischen
-            Anbau. Wir wertschätzen die verarbeiteten Produkte und vermeiden die Produktion von Müll. Dennoch sind wir in Sachen
-            Nachhaltigkeit noch nicht perfekt. Daher bemühen wir uns, ständig besser zu werden bei der Müllvermeidung und der
-            Verwendung von Ressourcen schonender natürlicher Materialien.
-        </p>
-        <p>
-            Zur Minimierung unseres CO2 Footprints pflanzen wir für jeden Gast, der unser Menue wählt, einen Baum zusammen mit
-            der Forstverwaltung in unserer Region. Jeder Gast sponsert die Baumpflanzaktion mit einem Betrag von 2 €, der bereits im
-            Menue-Preis enthalten ist. Wir verdoppeln diesen Betrag. So werden 2 Bäume gepflanzt. Jeder von ihnen nimmt in seinem
-            Leben 1.500 kg CO2 auf. 
-        </p>
-    </section>
-    <section id="menu">
-        <span>
-            <h2>Menue</h2>
-            <p>80</p>
-        </span>
-        <ol>
-            <li>
-                <span>
+            
+            
+        </section>
+        <section id="menu">
+            <span>
+                <h2>Menue</h2>
+                <p>80</p>
+            </span>
+            <ol>
+                <li>
                     <h4>Geröstete Auberginen</h4>
-                    <p>26</p>
-                </span>
-                <ul>
-                    <li>Schwarzer Knobluach</li>
-                    <li>Pinienkerne</li>
-                    <li>Basilikum</li>
-                </ul>
-            </li>
-            <li>
-                <span>
-                    <h4>Hähnchenbrust mit Knoblauch-Brioche</h4>
-                    <p>38</p>
-                </span>
-                <ul>
-                    <li>Erbsen</li>
-                    <li>Estragonjus</li>
-                </ul>
-            </li>
-            <li>
-                <span>
-                    <h4>Financiers</h4>
-                    <p>16</p>
-                </span>
-                <ul>
-                    <li>Kaffee</li>
-                    <li>Pekannuss</li>
-                </ul>
-            </li>
-        </ol>
-    </section>
+                    <ul>
+                        <li>Schwarzer Knobluach</li>
+                        <li>Pinienkerne</li>
+                        <li>Basilikum</li>
+                    </ul>
+                    <li><p>26</p></li>
+                </li>
+                <li>
+                    <span>
+                        <h4>Hähnchenbrust mit Knoblauch-Brioche</h4>
+                        <p>38</p>
+                    </span>
+                    <ul>
+                        <li>Erbsen</li>
+                        <li>Estragonjus</li>
+                    </ul>
+                </li>
+                <li>
+                    <span>
+                        <h4>Financiers</h4>
+                        <p>16</p>
+                    </span>
+                    <ul>
+                        <li>Kaffee</li>
+                        <li>Pekannuss</li>
+                    </ul>
+                </li>
+            </ol>
+        </section>
+    </main>
     <footer>
-        <a href="tel:+49-123-456-789">+49 123-456-789</a>
+        <button>Tisch reservieren</button>
         <ul>
             <li>Impressum</li>
             <li>Datenschutz</li>
             <li>Kontakt</li>
         </ul>
+        <a href="tel:+49-123-456-789">+49 123-456-789</a>
     </footer>
 </body>
 </html>
