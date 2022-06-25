@@ -14,6 +14,7 @@ html {
 a{
     color: inherit;
     list-style: inherit;
+    text-decoration: none;
 }
 
 ul, ol {
@@ -116,13 +117,20 @@ nav li {
     flex-direction: row-reverse;
 }
 
+.trees,
+.aboutText {
+    flex-grow: 1;
+}
+
 img {
-    max-width: 100%;
+    max-height: auto;
+    max-height: 80vh;
 }
 
 #about p{
-    text-align: left;
+    text-align: center;
     font-size: 1.5em;
+    margin-right: 2em;
 }
 
 #menu {
